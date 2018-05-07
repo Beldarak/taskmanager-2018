@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+
+Coucou 2
+=======
+Re-coucou
+>>>>>>> b257edfcc2ca49647474f836768ae1920ef19f6d
