@@ -5,12 +5,12 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\User;
+use app\models\Tmuser;
 
 /**
- * UserSearch represents the model behind the search form of `app\models\User`.
+ * TmuserSearch represents the model behind the search form of `app\models\Tmuser`.
  */
-class UserSearch extends User
+class TmuserSearch extends Tmuser
 {
     /**
      * {@inheritdoc}
@@ -41,7 +41,7 @@ class UserSearch extends User
      */
     public function search($params)
     {
-        $query = User::find();
+        $query = Tmuser::find();
 
         // add conditions that should always apply here
 
