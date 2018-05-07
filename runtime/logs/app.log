@@ -254,3 +254,752 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1525719989.614
     'REQUEST_TIME' => 1525719989
 ]
+2018-05-07 19:25:09 [::1][100][4jk4b51rf0fs09n2179bm0behq][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Task::order in C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('order')
+#1 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('order')
+#2 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Task), 'order')
+#3 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Task), 2, 0)
+#4 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Task), 2, 0)
+#5 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(59): yii\grid\Column->renderDataCell(Object(app\models\Task), 2, 0)
+#6 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(489): richardfan\sortable\SortableGridView->renderTableRow(Object(app\models\Task), 2, 0)
+#7 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#8 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#9 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#10 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#14 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(80): yii\grid\GridView->run()
+#15 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Widget.php(140): richardfan\sortable\SortableGridView->run()
+#16 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\views\site\index.php(15): yii\base\Widget::widget(Array)
+#17 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Program File...')
+#18 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Program File...', Array)
+#19 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Program File...', Array, Object(app\controllers\SiteController))
+#20 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#21 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render('index', Array)
+#22 [internal function]: app\controllers\SiteController->actionIndex()
+#23 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#26 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#27 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#29 {main}
+2018-05-07 19:25:09 [::1][100][4jk4b51rf0fs09n2179bm0behq][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'ttrss_sid' => '0i1o8dagnq1tp5tcvt0hhedntv'
+    'PHPSESSID' => '4jk4b51rf0fs09n2179bm0behq'
+    '_identity' => '7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files (x86)/UwAmp/bin/php/php-7.2.5-Win32-VC15-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'ttrss_sid=0i1o8dagnq1tp5tcvt0hhedntv; PHPSESSID=4jk4b51rf0fs09n2179bm0behq; _identity=7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86\\ext;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.1.1-Win32-VC14-x86\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\npm;C:\\Program Files\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '52221'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525721109.408
+    'REQUEST_TIME' => 1525721109
+]
+2018-05-07 19:25:51 [::1][100][4jk4b51rf0fs09n2179bm0behq][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Task::order in C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('order')
+#1 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('order')
+#2 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Task), 'order')
+#3 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Task), 2, 0)
+#4 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Task), 2, 0)
+#5 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(59): yii\grid\Column->renderDataCell(Object(app\models\Task), 2, 0)
+#6 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(489): richardfan\sortable\SortableGridView->renderTableRow(Object(app\models\Task), 2, 0)
+#7 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#8 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#9 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#10 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#14 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(80): yii\grid\GridView->run()
+#15 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Widget.php(140): richardfan\sortable\SortableGridView->run()
+#16 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\views\site\index.php(15): yii\base\Widget::widget(Array)
+#17 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Program File...')
+#18 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Program File...', Array)
+#19 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Program File...', Array, Object(app\controllers\SiteController))
+#20 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#21 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render('index', Array)
+#22 [internal function]: app\controllers\SiteController->actionIndex()
+#23 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#26 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#27 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#29 {main}
+2018-05-07 19:25:51 [::1][100][4jk4b51rf0fs09n2179bm0behq][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'ttrss_sid' => '0i1o8dagnq1tp5tcvt0hhedntv'
+    'PHPSESSID' => '4jk4b51rf0fs09n2179bm0behq'
+    '_identity' => '7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files (x86)/UwAmp/bin/php/php-7.2.5-Win32-VC15-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'ttrss_sid=0i1o8dagnq1tp5tcvt0hhedntv; PHPSESSID=4jk4b51rf0fs09n2179bm0behq; _identity=7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86\\ext;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.1.1-Win32-VC14-x86\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\npm;C:\\Program Files\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '52232'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525721151.139
+    'REQUEST_TIME' => 1525721151
+]
+2018-05-07 19:29:36 [::1][100][4jk4b51rf0fs09n2179bm0behq][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Task::user_task_order_id in C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('user_task_order...')
+#1 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('user_task_order...')
+#2 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Task), 'user_task_order...')
+#3 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Task), 2, 0)
+#4 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Task), 2, 0)
+#5 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(59): yii\grid\Column->renderDataCell(Object(app\models\Task), 2, 0)
+#6 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(489): richardfan\sortable\SortableGridView->renderTableRow(Object(app\models\Task), 2, 0)
+#7 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#8 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#9 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#10 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#14 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(80): yii\grid\GridView->run()
+#15 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Widget.php(140): richardfan\sortable\SortableGridView->run()
+#16 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\views\site\index.php(15): yii\base\Widget::widget(Array)
+#17 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Program File...')
+#18 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Program File...', Array)
+#19 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Program File...', Array, Object(app\controllers\SiteController))
+#20 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#21 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render('index', Array)
+#22 [internal function]: app\controllers\SiteController->actionIndex()
+#23 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#26 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#27 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#29 {main}
+2018-05-07 19:29:36 [::1][100][4jk4b51rf0fs09n2179bm0behq][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'ttrss_sid' => '0i1o8dagnq1tp5tcvt0hhedntv'
+    'PHPSESSID' => '4jk4b51rf0fs09n2179bm0behq'
+    '_identity' => '7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files (x86)/UwAmp/bin/php/php-7.2.5-Win32-VC15-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'ttrss_sid=0i1o8dagnq1tp5tcvt0hhedntv; PHPSESSID=4jk4b51rf0fs09n2179bm0behq; _identity=7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86\\ext;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.1.1-Win32-VC14-x86\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\npm;C:\\Program Files\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '52253'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525721376.164
+    'REQUEST_TIME' => 1525721376
+]
+2018-05-07 19:30:14 [::1][100][4jk4b51rf0fs09n2179bm0behq][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause' in C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Query.php(274): yii\db\Command->queryOne()
+#4 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\ActiveQuery.php(292): yii\db\Query->one(NULL)
+#5 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(184): yii\db\ActiveQuery->one()
+#6 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\BaseActiveRecord.php(299): yii\db\ActiveQuery->findFor('order', Object(app\models\Task))
+#7 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('order')
+#8 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Task), 'order')
+#9 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Task), 2, 0)
+#10 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Task), 2, 0)
+#11 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(59): yii\grid\Column->renderDataCell(Object(app\models\Task), 2, 0)
+#12 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(489): richardfan\sortable\SortableGridView->renderTableRow(Object(app\models\Task), 2, 0)
+#13 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#14 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#15 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#16 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#17 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#18 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#19 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#20 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(80): yii\grid\GridView->run()
+#21 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Widget.php(140): richardfan\sortable\SortableGridView->run()
+#22 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\views\site\index.php(15): yii\base\Widget::widget(Array)
+#23 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Program File...')
+#24 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Program File...', '[<span class="s...')
+#25 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Program File...', Array, Object(app\controllers\SiteController))
+#26 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#30 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#31 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#32 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#33 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#35 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+The SQL being executed was: SELECT * FROM `user_task` WHERE `user_id`='1' in C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Query.php(274): yii\db\Command->queryOne()
+#4 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\ActiveQuery.php(292): yii\db\Query->one(NULL)
+#5 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(184): yii\db\ActiveQuery->one()
+#6 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\BaseActiveRecord.php(299): yii\db\ActiveQuery->findFor('order', Object(app\models\Task))
+#7 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('order')
+#8 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Task), 'order')
+#9 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Task), 2, 0)
+#10 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Task), 2, 0)
+#11 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(59): yii\grid\Column->renderDataCell(Object(app\models\Task), 2, 0)
+#12 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(489): richardfan\sortable\SortableGridView->renderTableRow(Object(app\models\Task), 2, 0)
+#13 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#14 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#15 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#16 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#17 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#18 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#19 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#20 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(80): yii\grid\GridView->run()
+#21 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Widget.php(140): richardfan\sortable\SortableGridView->run()
+#22 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\views\site\index.php(15): yii\base\Widget::widget(Array)
+#23 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Program File...')
+#24 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Program File...', '[<span class="s...')
+#25 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Program File...', Array, Object(app\controllers\SiteController))
+#26 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#30 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#31 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#32 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#33 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#35 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'user_id' in 'where clause'
+)
+
+2018-05-07 19:30:14 [::1][100][4jk4b51rf0fs09n2179bm0behq][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'ttrss_sid' => '0i1o8dagnq1tp5tcvt0hhedntv'
+    'PHPSESSID' => '4jk4b51rf0fs09n2179bm0behq'
+    '_identity' => '7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files (x86)/UwAmp/bin/php/php-7.2.5-Win32-VC15-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'ttrss_sid=0i1o8dagnq1tp5tcvt0hhedntv; PHPSESSID=4jk4b51rf0fs09n2179bm0behq; _identity=7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86\\ext;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.1.1-Win32-VC14-x86\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\npm;C:\\Program Files\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '52260'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525721414.643
+    'REQUEST_TIME' => 1525721414
+]
+2018-05-07 19:31:15 [::1][100][4jk4b51rf0fs09n2179bm0behq][error][Error] Error: Call to undefined method app\models\User::find() in C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\BaseActiveRecord.php:445
+Stack trace:
+#0 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\BaseActiveRecord.php(428): yii\db\BaseActiveRecord->createRelationQuery('app\\models\\User', Array, true)
+#1 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\models\Task.php(115): yii\db\BaseActiveRecord->hasMany('app\\models\\User', Array)
+#2 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Component.php(139): app\models\Task->getOrder()
+#3 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('order')
+#4 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('order')
+#5 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Task), 'order')
+#6 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Task), 2, 0)
+#7 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Task), 2, 0)
+#8 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(59): yii\grid\Column->renderDataCell(Object(app\models\Task), 2, 0)
+#9 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(489): richardfan\sortable\SortableGridView->renderTableRow(Object(app\models\Task), 2, 0)
+#10 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#11 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#12 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#13 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#14 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#15 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#16 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#17 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(80): yii\grid\GridView->run()
+#18 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Widget.php(140): richardfan\sortable\SortableGridView->run()
+#19 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\views\site\index.php(15): yii\base\Widget::widget(Array)
+#20 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Program File...')
+#21 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Program File...', Array)
+#22 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Program File...', Array, Object(app\controllers\SiteController))
+#23 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#24 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render('index', Array)
+#25 [internal function]: app\controllers\SiteController->actionIndex()
+#26 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#27 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#28 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#29 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#30 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#32 {main}
+2018-05-07 19:31:15 [::1][100][4jk4b51rf0fs09n2179bm0behq][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'ttrss_sid' => '0i1o8dagnq1tp5tcvt0hhedntv'
+    'PHPSESSID' => '4jk4b51rf0fs09n2179bm0behq'
+    '_identity' => '7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files (x86)/UwAmp/bin/php/php-7.2.5-Win32-VC15-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'ttrss_sid=0i1o8dagnq1tp5tcvt0hhedntv; PHPSESSID=4jk4b51rf0fs09n2179bm0behq; _identity=7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86\\ext;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.1.1-Win32-VC14-x86\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\npm;C:\\Program Files\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '52267'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525721475.693
+    'REQUEST_TIME' => 1525721475
+]
+2018-05-07 19:36:07 [::1][100][4jk4b51rf0fs09n2179bm0behq][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order' in 'where clause' in C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Query.php(274): yii\db\Command->queryOne()
+#4 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\ActiveQuery.php(292): yii\db\Query->one(NULL)
+#5 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(184): yii\db\ActiveQuery->one()
+#6 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\BaseActiveRecord.php(299): yii\db\ActiveQuery->findFor('order', Object(app\models\Task))
+#7 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('order')
+#8 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Task), 'order')
+#9 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Task), 2, 0)
+#10 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Task), 2, 0)
+#11 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(59): yii\grid\Column->renderDataCell(Object(app\models\Task), 2, 0)
+#12 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(489): richardfan\sortable\SortableGridView->renderTableRow(Object(app\models\Task), 2, 0)
+#13 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#14 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#15 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#16 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#17 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#18 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#19 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#20 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(80): yii\grid\GridView->run()
+#21 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Widget.php(140): richardfan\sortable\SortableGridView->run()
+#22 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\views\site\index.php(15): yii\base\Widget::widget(Array)
+#23 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Program File...')
+#24 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Program File...', '[<span class="s...')
+#25 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Program File...', Array, Object(app\controllers\SiteController))
+#26 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#30 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#31 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#32 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#33 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#35 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order' in 'where clause'
+The SQL being executed was: SELECT * FROM `user_task` WHERE `order`='2' in C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\Query.php(274): yii\db\Command->queryOne()
+#4 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\ActiveQuery.php(292): yii\db\Query->one(NULL)
+#5 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(184): yii\db\ActiveQuery->one()
+#6 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\db\BaseActiveRecord.php(299): yii\db\ActiveQuery->findFor('order', Object(app\models\Task))
+#7 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('order')
+#8 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Task), 'order')
+#9 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Task), 2, 0)
+#10 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Task), 2, 0)
+#11 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(59): yii\grid\Column->renderDataCell(Object(app\models\Task), 2, 0)
+#12 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(489): richardfan\sortable\SortableGridView->renderTableRow(Object(app\models\Task), 2, 0)
+#13 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#14 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#15 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#16 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#17 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#18 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#19 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#20 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(80): yii\grid\GridView->run()
+#21 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Widget.php(140): richardfan\sortable\SortableGridView->run()
+#22 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\views\site\index.php(15): yii\base\Widget::widget(Array)
+#23 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Program File...')
+#24 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Program File...', '[<span class="s...')
+#25 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Program File...', Array, Object(app\controllers\SiteController))
+#26 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#30 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#31 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#32 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#33 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#35 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'order' in 'where clause'
+)
+
+2018-05-07 19:36:07 [::1][100][4jk4b51rf0fs09n2179bm0behq][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'ttrss_sid' => '0i1o8dagnq1tp5tcvt0hhedntv'
+    'PHPSESSID' => '4jk4b51rf0fs09n2179bm0behq'
+    '_identity' => '7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files (x86)/UwAmp/bin/php/php-7.2.5-Win32-VC15-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'ttrss_sid=0i1o8dagnq1tp5tcvt0hhedntv; PHPSESSID=4jk4b51rf0fs09n2179bm0behq; _identity=7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86\\ext;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.1.1-Win32-VC14-x86\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\npm;C:\\Program Files\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '52297'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525721767.641
+    'REQUEST_TIME' => 1525721767
+]
+2018-05-07 19:38:15 [::1][100][4jk4b51rf0fs09n2179bm0behq][error][yii\base\ErrorException:2] yii\base\ErrorException: htmlspecialchars() expects parameter 1 to be string, object given in C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\helpers\BaseHtml.php:111
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', 'C:\\Program File...', 111, Array)
+#1 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\helpers\BaseHtml.php(111): htmlspecialchars(Object(app\models\UserTask), 11, 'UTF-8', true)
+#2 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\i18n\Formatter.php(476): yii\helpers\BaseHtml::encode(Object(app\models\UserTask))
+#3 [internal function]: yii\i18n\Formatter->asText(Object(app\models\UserTask))
+#4 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\i18n\Formatter.php(439): call_user_func_array(Array, Array)
+#5 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\i18n\Formatter->format(Object(app\models\UserTask), 'text')
+#6 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Task), 2, 0)
+#7 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(59): yii\grid\Column->renderDataCell(Object(app\models\Task), 2, 0)
+#8 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(489): richardfan\sortable\SortableGridView->renderTableRow(Object(app\models\Task), 2, 0)
+#9 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#10 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#11 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#12 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#15 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#16 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php(80): yii\grid\GridView->run()
+#17 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Widget.php(140): richardfan\sortable\SortableGridView->run()
+#18 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\views\site\index.php(15): yii\base\Widget::widget(Array)
+#19 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Program File...')
+#20 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Program File...', Array)
+#21 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Program File...', Array, Object(app\controllers\SiteController))
+#22 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#23 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render('index', Array)
+#24 [internal function]: app\controllers\SiteController->actionIndex()
+#25 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#26 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#27 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#28 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#29 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 C:\Program Files (x86)\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#31 {main}
+2018-05-07 19:38:15 [::1][100][4jk4b51rf0fs09n2179bm0behq][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'ttrss_sid' => '0i1o8dagnq1tp5tcvt0hhedntv'
+    'PHPSESSID' => '4jk4b51rf0fs09n2179bm0behq'
+    '_identity' => '7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files (x86)/UwAmp/bin/php/php-7.2.5-Win32-VC15-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'ttrss_sid=0i1o8dagnq1tp5tcvt0hhedntv; PHPSESSID=4jk4b51rf0fs09n2179bm0behq; _identity=7dbe05ac49f5ce85ee648f8105111c8460021e443c9d9d198e037ecc82004946a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=9ab9daaf84cf377a383a2147f905cbc05fd44928588c173af06ad19c6fa8b984a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KjcG8vKWlFP_FkyRxrUa5wzeM3O2FW9v%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.2.5-Win32-VC15-x86\\ext;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\UwAmp\\bin\\php\\php-7.1.1-Win32-VC14-x86\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\npm;C:\\Program Files\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.5'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files (x86)/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '52312'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525721895.24
+    'REQUEST_TIME' => 1525721895
+]

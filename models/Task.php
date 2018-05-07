@@ -110,8 +110,10 @@ class Task extends \yii\db\ActiveRecord
     }
 	
 	// A CHECK
-	public function getUserTaskOrderId()
+	public function getOrder()
 	{
-		return $this->hasOne(UserTask::className(), ['user_id' => 'user_task_user'])->viaTable('user_task', ['user_task_order' => 'task_id']);
+        //Modifier cette requete pour qu'elle nous donne l'order de la task
+        /*return $this->hasOne(UserTask::className(), ['user_id' => 'user_task_user'])->viaTable('user_task', ['user_task_order' => 'task_id']);*/
+        return -1;
 	}
 }

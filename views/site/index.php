@@ -27,6 +27,7 @@ $this->title = 'My Yii Application';
 		'task_emergency',
 		'task_end',
 		'task_priority',
+		'order',
     ],
 	]); ?>
 	
