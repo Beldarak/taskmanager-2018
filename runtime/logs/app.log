@@ -3874,3 +3874,283 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1526237671.832
     'REQUEST_TIME' => 1526237671
 ]
+2018-05-13 20:59:26 [::1][-][blch0ribj5diqmn92chd6qmr2k][error][ParseError] ParseError: syntax error, unexpected ''order_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in F:\Program Files\UwAmp\www\taskmanager-2018\models\Task.php:68
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Task')
+#1 F:\Program Files\UwAmp\www\taskmanager-2018\controllers\SiteController.php(55): spl_autoload_call('app\\models\\Task')
+#2 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(225): app\controllers\SiteController->actions()
+#3 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(126): yii\base\Controller->createAction('index')
+#4 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#5 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\Program Files\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-05-13 20:59:26 [::1][-][blch0ribj5diqmn92chd6qmr2k][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'blch0ribj5diqmn92chd6qmr2k'
+    '_csrf' => '47436b7444053f1131412478589eaa39f1055864322356bb7b8dea5d0ac0e8a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WsS62rts4sz4jIMbQsrHM19dkPdDGHDK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'aumigi'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHPRC' => 'F:/Program Files/UwAmp/bin/php/php-7.1.2-Win32-VC14-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=blch0ribj5diqmn92chd6qmr2k; _csrf=47436b7444053f1131412478589eaa39f1055864322356bb7b8dea5d0ac0e8a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WsS62rts4sz4jIMbQsrHM19dkPdDGHDK%22%3B%7D'
+    'PATH' => 'F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86;F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86\\ext;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;G:\\SQL;C:\\Program Files (x86)\\Java\\jre1.8.0_31\\bin;C:\\Windows\\system32;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;F:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;F:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\Beldarak\\AppData\\Roaming\\npm;C:\\Users\\Beldarak\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/7.1.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/7.1.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'F:/Program Files/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '55555'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526237966.663
+    'REQUEST_TIME' => 1526237966
+]
+2018-05-13 20:59:31 [::1][-][blch0ribj5diqmn92chd6qmr2k][error][ParseError] ParseError: syntax error, unexpected ''order_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in F:\Program Files\UwAmp\www\taskmanager-2018\models\Task.php:68
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Task')
+#1 F:\Program Files\UwAmp\www\taskmanager-2018\controllers\SiteController.php(55): spl_autoload_call('app\\models\\Task')
+#2 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(225): app\controllers\SiteController->actions()
+#3 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(126): yii\base\Controller->createAction('index')
+#4 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#5 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\Program Files\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-05-13 20:59:31 [::1][-][blch0ribj5diqmn92chd6qmr2k][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'blch0ribj5diqmn92chd6qmr2k'
+    '_csrf' => '47436b7444053f1131412478589eaa39f1055864322356bb7b8dea5d0ac0e8a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WsS62rts4sz4jIMbQsrHM19dkPdDGHDK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'aumigi'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHPRC' => 'F:/Program Files/UwAmp/bin/php/php-7.1.2-Win32-VC14-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=blch0ribj5diqmn92chd6qmr2k; _csrf=47436b7444053f1131412478589eaa39f1055864322356bb7b8dea5d0ac0e8a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WsS62rts4sz4jIMbQsrHM19dkPdDGHDK%22%3B%7D'
+    'PATH' => 'F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86;F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86\\ext;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;G:\\SQL;C:\\Program Files (x86)\\Java\\jre1.8.0_31\\bin;C:\\Windows\\system32;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;F:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;F:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\Beldarak\\AppData\\Roaming\\npm;C:\\Users\\Beldarak\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/7.1.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/7.1.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'F:/Program Files/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '55563'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526237971.001
+    'REQUEST_TIME' => 1526237971
+]
+2018-05-13 20:59:52 [::1][-][blch0ribj5diqmn92chd6qmr2k][error][ParseError] ParseError: syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in F:\Program Files\UwAmp\www\taskmanager-2018\models\Task.php:68
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Task')
+#1 F:\Program Files\UwAmp\www\taskmanager-2018\controllers\SiteController.php(55): spl_autoload_call('app\\models\\Task')
+#2 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(225): app\controllers\SiteController->actions()
+#3 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(126): yii\base\Controller->createAction('index')
+#4 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#5 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\Program Files\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-05-13 20:59:52 [::1][-][blch0ribj5diqmn92chd6qmr2k][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'blch0ribj5diqmn92chd6qmr2k'
+    '_csrf' => '47436b7444053f1131412478589eaa39f1055864322356bb7b8dea5d0ac0e8a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WsS62rts4sz4jIMbQsrHM19dkPdDGHDK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'aumigi'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHPRC' => 'F:/Program Files/UwAmp/bin/php/php-7.1.2-Win32-VC14-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=blch0ribj5diqmn92chd6qmr2k; _csrf=47436b7444053f1131412478589eaa39f1055864322356bb7b8dea5d0ac0e8a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WsS62rts4sz4jIMbQsrHM19dkPdDGHDK%22%3B%7D'
+    'PATH' => 'F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86;F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86\\ext;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;G:\\SQL;C:\\Program Files (x86)\\Java\\jre1.8.0_31\\bin;C:\\Windows\\system32;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;F:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;F:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\Beldarak\\AppData\\Roaming\\npm;C:\\Users\\Beldarak\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/7.1.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/7.1.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'F:/Program Files/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '55601'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526237992.899
+    'REQUEST_TIME' => 1526237992
+]
+2018-05-13 20:59:54 [::1][-][blch0ribj5diqmn92chd6qmr2k][error][ParseError] ParseError: syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in F:\Program Files\UwAmp\www\taskmanager-2018\models\Task.php:68
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Task')
+#1 F:\Program Files\UwAmp\www\taskmanager-2018\controllers\SiteController.php(55): spl_autoload_call('app\\models\\Task')
+#2 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(225): app\controllers\SiteController->actions()
+#3 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(126): yii\base\Controller->createAction('index')
+#4 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#5 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 F:\Program Files\UwAmp\www\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\Program Files\UwAmp\www\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-05-13 20:59:54 [::1][-][blch0ribj5diqmn92chd6qmr2k][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'blch0ribj5diqmn92chd6qmr2k'
+    '_csrf' => '47436b7444053f1131412478589eaa39f1055864322356bb7b8dea5d0ac0e8a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WsS62rts4sz4jIMbQsrHM19dkPdDGHDK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'aumigi'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHPRC' => 'F:/Program Files/UwAmp/bin/php/php-7.1.2-Win32-VC14-x86'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/taskmanager-2018/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=blch0ribj5diqmn92chd6qmr2k; _csrf=47436b7444053f1131412478589eaa39f1055864322356bb7b8dea5d0ac0e8a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WsS62rts4sz4jIMbQsrHM19dkPdDGHDK%22%3B%7D'
+    'PATH' => 'F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86;F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86\\ext;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;G:\\SQL;C:\\Program Files (x86)\\Java\\jre1.8.0_31\\bin;C:\\Windows\\system32;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;F:\\Program Files\\UwAmp\\bin\\php\\php-7.1.2-Win32-VC14-x86;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;F:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;F:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\Beldarak\\AppData\\Roaming\\npm;C:\\Users\\Beldarak\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/7.1.2 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/7.1.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'F:/Program Files/UwAmp/www/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '55602'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526237994.132
+    'REQUEST_TIME' => 1526237994
+]

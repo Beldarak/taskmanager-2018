@@ -22,6 +22,7 @@ return [
     'Create User' => 'Créer un utilisateur',
     'Create User Task' => '',
     'Delete' => 'Supprimer',
+    'Order ID' => 'ID d\'ordre',
     'Projects can be moved :' => 'Les projets peuvent être déplacés',
     'Reset' => 'Réinitialiser',
     'Save' => 'Sauvergarder',
