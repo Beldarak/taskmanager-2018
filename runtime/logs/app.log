@@ -1620,3 +1620,2257 @@ $_SERVER = [
     ]
     'argc' => 3
 ]
+2018-05-13 18:03:28 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:03:28 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49690'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526234608.617
+    'REQUEST_TIME' => 1526234608
+]
+2018-05-13 18:03:28 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:03:28 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49688'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526234608.605
+    'REQUEST_TIME' => 1526234608
+]
+2018-05-13 18:03:29 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:03:28 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49691'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526234608.865
+    'REQUEST_TIME' => 1526234608
+]
+2018-05-13 18:03:37 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:03:36 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49692'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526234616.91
+    'REQUEST_TIME' => 1526234616
+]
+2018-05-13 18:03:37 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:03:36 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49699'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526234616.915
+    'REQUEST_TIME' => 1526234616
+]
+2018-05-13 18:04:03 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:04:03 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49709'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526234643.077
+    'REQUEST_TIME' => 1526234643
+]
+2018-05-13 18:04:03 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:04:03 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49708'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526234643.07
+    'REQUEST_TIME' => 1526234643
+]
+2018-05-13 18:04:03 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:04:03 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49712'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526234643.334
+    'REQUEST_TIME' => 1526234643
+]
+2018-05-13 18:15:41 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:15:41 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49780'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526235341.727
+    'REQUEST_TIME' => 1526235341
+]
+2018-05-13 18:15:41 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:15:41 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49785'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526235341.73
+    'REQUEST_TIME' => 1526235341
+]
+2018-05-13 18:26:14 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:26:14 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49817'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526235974.786
+    'REQUEST_TIME' => 1526235974
+]
+2018-05-13 18:26:14 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:26:14 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49820'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526235974.791
+    'REQUEST_TIME' => 1526235974
+]
+2018-05-13 18:28:42 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:28:42 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49862'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236122.647
+    'REQUEST_TIME' => 1526236122
+]
+2018-05-13 18:28:42 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:28:42 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49865'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236122.653
+    'REQUEST_TIME' => 1526236122
+]
+2018-05-13 18:29:10 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:29:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49870'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236150.159
+    'REQUEST_TIME' => 1526236150
+]
+2018-05-13 18:29:10 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:29:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49872'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236150.167
+    'REQUEST_TIME' => 1526236150
+]
+2018-05-13 18:29:40 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:29:40 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49879'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236180.796
+    'REQUEST_TIME' => 1526236180
+]
+2018-05-13 18:29:40 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:29:40 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49882'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236180.802
+    'REQUEST_TIME' => 1526236180
+]
+2018-05-13 18:30:37 [::1][-][7gq255c64d6985r8otvqqa7s45][error][Error] Error: Call to undefined function t() in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\views\layouts\main.php:41
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): require()
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Program File...', Array)
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\Program File...', Array, Object(app\controllers\SiteController))
+#3 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('\r\n\r\n    <h3> \r\n...')
+#4 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render('index', Array)
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#9 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#10 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2018-05-13 18:30:37 [::1][-][7gq255c64d6985r8otvqqa7s45][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49895'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236237.31
+    'REQUEST_TIME' => 1526236237
+]
+2018-05-13 18:30:37 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:30:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49899'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236237.553
+    'REQUEST_TIME' => 1526236237
+]
+2018-05-13 18:31:03 [::1][-][7gq255c64d6985r8otvqqa7s45][error][yii\base\ErrorException:2] yii\base\ErrorException: Missing argument 2 for yii\BaseYii::t(), called in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\views\layouts\main.php on line 41 and defined in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\BaseYii.php:523
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(336): yii\base\View->unknown()
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile()
+#3 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent()
+#4 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\controllers\SiteController.php(92): yii\base\Controller->render()
+#5 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): app\controllers\SiteController->actionIndex()
+#6 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#7 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#9 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#11 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2018-05-13 18:31:03 [::1][-][7gq255c64d6985r8otvqqa7s45][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49908'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236263.264
+    'REQUEST_TIME' => 1526236263
+]
+2018-05-13 18:31:21 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:31:21 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49913'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236281.011
+    'REQUEST_TIME' => 1526236281
+]
+2018-05-13 18:31:21 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:31:21 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '49917'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236281.057
+    'REQUEST_TIME' => 1526236281
+]
+2018-05-13 18:40:16 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:40:16 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '50118'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236815.983
+    'REQUEST_TIME' => 1526236815
+]
+2018-05-13 18:40:16 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:40:16 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '50120'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236815.994
+    'REQUEST_TIME' => 1526236815
+]
+2018-05-13 18:40:49 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:40:48 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '50130'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236848.954
+    'REQUEST_TIME' => 1526236848
+]
+2018-05-13 18:40:49 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:40:49 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '50132'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236848.962
+    'REQUEST_TIME' => 1526236848
+]
+2018-05-13 18:40:52 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:40:52 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '50142'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236852.422
+    'REQUEST_TIME' => 1526236852
+]
+2018-05-13 18:40:52 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:40:52 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '50137'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236852.415
+    'REQUEST_TIME' => 1526236852
+]
+2018-05-13 18:40:52 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:40:52 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '50139'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526236852.618
+    'REQUEST_TIME' => 1526236852
+]
+2018-05-13 18:54:31 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/themes/smoothness/jquery-ui.css". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:54:31 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '50186'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/themes/smoothness/jquery-ui.css'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526237671.823
+    'REQUEST_TIME' => 1526237671
+]
+2018-05-13 18:54:31 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d8e94bb8/jquery-ui.js". in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/d8e94bb8...', Array)
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-05-13 18:54:31 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7gq255c64d6985r8otvqqa7s45'
+    '_csrf' => '5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=7gq255c64d6985r8otvqqa7s45; _csrf=5ced87915d2a24a652dba56c36cfb2291c00b237ea477ebac4517efe8a074a93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wkHV9PFN8ebr6tYzng8CBO0_R6gHDYgK%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '50189'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/assets/d8e94bb8/jquery-ui.js'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526237671.832
+    'REQUEST_TIME' => 1526237671
+]
