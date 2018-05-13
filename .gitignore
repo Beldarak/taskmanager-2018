@@ -30,7 +30,7 @@ tests/_output/*
 tests/_support/_generated
 
 #vagrant folder
-/.vagrant/.vagrant
+/.vagrant
 
 #runtime folder
 /runtime
