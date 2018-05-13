@@ -65,7 +65,8 @@ class Task extends \yii\db\ActiveRecord
             'task_emergency' => Yii::t('app', 'Task Emergency'),
             'task_end' => Yii::t('app', 'Task End'),
             'task_priority' => Yii::t('app', 'Task Priority'),
-			'order_id' => Yii::t('app', 'Order ID')
+<<<<<<< HEAD
+			'order' => Yii::t('app', 'Order ID')
         ];
     }
 
