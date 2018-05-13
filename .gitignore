@@ -34,6 +34,10 @@ tests/_support/_generated
 
 #runtime folder
 /runtime
+/.runtime
+/runtime/cache
+/runtime/debug
+/runtime/logs
 
 #web/assets folder
 /web/assets
