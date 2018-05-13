@@ -2,82 +2,103 @@
 
 namespace app\models;
 
-use Yii;
-
-/**
- * This is the model class for table "user".
- *
- * @property int $user_id
- * @property string $user_name
- * @property string $user_first_name
- * @property string $user_login
- * @property string $user_password
- * @property int $user_role
- * @property int $user_type
- *
- * @property Task[] $tasks
- * @property UserTask[] $userTasks
- * @property Task[] $userTaskTasks
- */
-class User extends \yii\db\ActiveRecord
+class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
 {
-    /**
-     * {@inheritdoc}
-     */
-    public static function tableName()
-    {
-        return 'user';
-    }
+    public $id;
+    public $username;
+    public $password;
+    public $authKey;
+    public $accessToken;
+
+    private static $users = [
+        '100' => [
+            'id' => '100',
+            'username' => 'admin',
+            'password' => 'admin',
+            'authKey' => 'test100key',
+            'accessToken' => '100-token',
+        ],
+        '101' => [
+            'id' => '101',
+            'username' => 'demo',
+            'password' => 'demo',
+            'authKey' => 'test101key',
+            'accessToken' => '101-token',
+        ],
+    ];
+
 
     /**
      * {@inheritdoc}
      */
-    public function rules()
+    public static function findIdentity($id)
     {
-        return [
-            [['user_name', 'user_first_name', 'user_login', 'user_password'], 'required'],
-            [['user_role', 'user_type'], 'integer'],
-            [['user_name', 'user_first_name', 'user_login', 'user_password'], 'string', 'max' => 50],
-        ];
+        return isset(self::$users[$id]) ? new static(self::$users[$id]) : null;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function attributeLabels()
+    public static function findIdentityByAccessToken($token, $type = null)
     {
-        return [
-            'user_id' => Yii::t('app', 'User ID'),
-            'user_name' => Yii::t('app', 'User Name'),
-            'user_first_name' => Yii::t('app', 'User First Name'),
-            'user_login' => Yii::t('app', 'User Login'),
-            'user_password' => Yii::t('app', 'User Password'),
-            'user_role' => Yii::t('app', 'User Role'),
-            'user_type' => Yii::t('app', 'User Type'),
-        ];
+        foreach (self::$users as $user) {
+            if ($user['accessToken'] === $token) {
+                return new static($user);
+            }
+        }
+
+        return null;
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * Finds user by username
+     *
+     * @param string $username
+     * @return static|null
      */
-    public function getTasks()
+    public static function findByUsername($username)
     {
-        return $this->hasMany(Task::className(), ['task_creator' => 'user_id']);
+        foreach (self::$users as $user) {
+            if (strcasecmp($user['username'], $username) === 0) {
+                return new static($user);
+            }
+        }
+
+        return null;
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * {@inheritdoc}
      */
-    public function getUserTasks()
+    public function getId()
     {
-        return $this->hasMany(UserTask::className(), ['user_task_user' => 'user_id']);
+        return $this->id;
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * {@inheritdoc}
      */
-    public function getUserTaskTasks()
+    public function getAuthKey()
     {
-        return $this->hasMany(Task::className(), ['task_id' => 'user_task_task'])->viaTable('user_task', ['user_task_user' => 'user_id']);
+        return $this->authKey;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function validateAuthKey($authKey)
+    {
+        return $this->authKey === $authKey;
+    }
+
+    /**
+     * Validates password
+     *
+     * @param string $password password to validate
+     * @return bool if password provided is valid for current user
+     */
+    public function validatePassword($password)
+    {
+        return $this->password === $password;
     }
 }
