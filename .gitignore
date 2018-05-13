@@ -35,6 +35,12 @@ tests/_support/_generated
 #runtime folder
 /runtime
 /.runtime
+<<<<<<< HEAD
+=======
+/runtime/cache
+/runtime/debug
+/runtime/logs
+>>>>>>> ad73831b4baf1ca31ae16090453451e83919cbbe
 
 #web/assets folder
 /web/assets
