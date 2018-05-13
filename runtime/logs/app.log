@@ -480,3 +480,620 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1525713765.021
     'REQUEST_TIME' => 1525713765
 ]
+2018-05-07 21:06:22 [-][-][-][error][yii\console\Exception] yii\console\Exception: The message path C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\config\..\messages is not a valid directory. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\controllers\MessageController.php:917
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\controllers\MessageController.php(296): yii\console\controllers\MessageController->initConfig('C:\\Program File...')
+#1 [internal function]: yii\console\controllers\MessageController->actionExtract('@app/config/i18...')
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('extract', Array)
+#5 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('extract', Array)
+#6 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('message/extract', Array)
+#7 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('message/extract', Array)
+#8 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\yii(20): yii\base\Application->run()
+#10 {main}
+2018-05-07 21:06:22 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Work\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WORK-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Work'
+    'LOCALAPPDATA' => 'C:\\Users\\Work\\AppData\\Local'
+    'LOGONSERVER' => '\\\\WORK-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 94 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '5e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Work\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Work\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Work-PC'
+    'USERNAME' => 'Work'
+    'USERPROFILE' => 'C:\\Users\\Work'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\'
+    'PHP_SELF' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'SCRIPT_NAME' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'PATH_TRANSLATED' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1525719982.548
+    'REQUEST_TIME' => 1525719982
+    'argv' => [
+        0 => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+        1 => 'message/extract'
+        2 => '@app/config/i18n.php'
+    ]
+    'argc' => 3
+]
+2018-05-07 21:07:02 [-][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @app\config\i18n.php in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\controllers\MessageController.php(888): yii\BaseYii::getAlias('@app\\config\\i18...')
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\controllers\MessageController.php(296): yii\console\controllers\MessageController->initConfig('@app\\config\\i18...')
+#2 [internal function]: yii\console\controllers\MessageController->actionExtract('@app\\config\\i18...')
+#3 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('extract', Array)
+#6 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('extract', Array)
+#7 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('message/extract', Array)
+#8 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('message/extract', Array)
+#9 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\yii(20): yii\base\Application->run()
+#11 {main}
+2018-05-07 21:07:02 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Work\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WORK-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Work'
+    'LOCALAPPDATA' => 'C:\\Users\\Work\\AppData\\Local'
+    'LOGONSERVER' => '\\\\WORK-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 94 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '5e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Work\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Work\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Work-PC'
+    'USERNAME' => 'Work'
+    'USERPROFILE' => 'C:\\Users\\Work'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\'
+    'PHP_SELF' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'SCRIPT_NAME' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'PATH_TRANSLATED' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1525720022.258
+    'REQUEST_TIME' => 1525720022
+    'argv' => [
+        0 => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+        1 => 'message/extract'
+        2 => '@app\\config\\i18n.php'
+    ]
+    'argc' => 3
+]
+2018-05-07 19:11:55 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018/messages/fr/app.php
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\models\Task.php:58
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php:80
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\views\site\index.php:15
+2018-05-07 19:11:55 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'aeh2cdlbjuf2qtufucaf8mmek1'
+    '_csrf' => '2fe1f72310e1a373af008ad582ff9db04f28da5f23df493dddd77314374e105da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VNF7iVx6AnbcZZuuRo3o83Tt536lUyRC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/task/index'
+    'HTTP_COOKIE' => 'PHPSESSID=aeh2cdlbjuf2qtufucaf8mmek1; _csrf=2fe1f72310e1a373af008ad582ff9db04f28da5f23df493dddd77314374e105da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VNF7iVx6AnbcZZuuRo3o83Tt536lUyRC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '56220'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525720315.455
+    'REQUEST_TIME' => 1525720315
+]
+2018-05-07 19:11:57 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018/messages/fr/app.php
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\models\Task.php:58
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php:80
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\views\site\index.php:15
+2018-05-07 19:11:57 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'aeh2cdlbjuf2qtufucaf8mmek1'
+    '_csrf' => '2fe1f72310e1a373af008ad582ff9db04f28da5f23df493dddd77314374e105da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VNF7iVx6AnbcZZuuRo3o83Tt536lUyRC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=aeh2cdlbjuf2qtufucaf8mmek1; _csrf=2fe1f72310e1a373af008ad582ff9db04f28da5f23df493dddd77314374e105da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VNF7iVx6AnbcZZuuRo3o83Tt536lUyRC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '56220'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525720317.806
+    'REQUEST_TIME' => 1525720317
+]
+2018-05-07 19:11:59 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018/messages/fr/app.php
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\views\task\index.php:12
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\controllers\TaskController.php:64
+2018-05-07 19:11:59 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'aeh2cdlbjuf2qtufucaf8mmek1'
+    '_csrf' => '2fe1f72310e1a373af008ad582ff9db04f28da5f23df493dddd77314374e105da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VNF7iVx6AnbcZZuuRo3o83Tt536lUyRC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'REDIRECT_STATUS' => '200'
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=aeh2cdlbjuf2qtufucaf8mmek1; _csrf=2fe1f72310e1a373af008ad582ff9db04f28da5f23df493dddd77314374e105da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VNF7iVx6AnbcZZuuRo3o83Tt536lUyRC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '56220'
+    'REDIRECT_URL' => '/YiiApps/taskmanager-2018/web/task/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/task/index'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525720319.359
+    'REQUEST_TIME' => 1525720319
+]
+2018-05-07 19:12:02 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018/messages/fr/app.php
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\models\Task.php:58
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\richardfan1126\yii2-sortable-gridview\SortableGridView.php:80
+    in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\views\site\index.php:15
+2018-05-07 19:12:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'aeh2cdlbjuf2qtufucaf8mmek1'
+    '_csrf' => '2fe1f72310e1a373af008ad582ff9db04f28da5f23df493dddd77314374e105da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VNF7iVx6AnbcZZuuRo3o83Tt536lUyRC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHPRC' => 'C:/Program Files/UwAmp/bin/php/php-7.0.3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/YiiApps/taskmanager-2018/web/task/index'
+    'HTTP_COOKIE' => 'PHPSESSID=aeh2cdlbjuf2qtufucaf8mmek1; _csrf=2fe1f72310e1a373af008ad582ff9db04f28da5f23df493dddd77314374e105da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VNF7iVx6AnbcZZuuRo3o83Tt536lUyRC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3\\ext;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Program Files/UwAmp/www/'
+    'SERVER_ADMIN' => 'contact@exemple.com'
+    'SCRIPT_FILENAME' => 'C:/Program Files/UwAmp/www/YiiApps/taskmanager-2018/web/index.php'
+    'REMOTE_PORT' => '56220'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/YiiApps/taskmanager-2018/web/'
+    'SCRIPT_NAME' => '/YiiApps/taskmanager-2018/web/index.php'
+    'PHP_SELF' => '/YiiApps/taskmanager-2018/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1525720322.87
+    'REQUEST_TIME' => 1525720322
+]
+2018-05-07 21:27:22 [-][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @app\config\i18n.php in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\controllers\MessageController.php(888): yii\BaseYii::getAlias('@app\\config\\i18...')
+#1 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\controllers\MessageController.php(296): yii\console\controllers\MessageController->initConfig('@app\\config\\i18...')
+#2 [internal function]: yii\console\controllers\MessageController->actionExtract('@app\\config\\i18...')
+#3 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('extract', Array)
+#6 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('extract', Array)
+#7 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('message/extract', Array)
+#8 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('message/extract', Array)
+#9 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\yii(20): yii\base\Application->run()
+#11 {main}
+2018-05-07 21:27:22 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Work\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WORK-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Work'
+    'LOCALAPPDATA' => 'C:\\Users\\Work\\AppData\\Local'
+    'LOGONSERVER' => '\\\\WORK-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 94 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '5e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Work\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Work\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Work-PC'
+    'USERNAME' => 'Work'
+    'USERPROFILE' => 'C:\\Users\\Work'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\'
+    'PHP_SELF' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'SCRIPT_NAME' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'PATH_TRANSLATED' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1525721242.731
+    'REQUEST_TIME' => 1525721242
+    'argv' => [
+        0 => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+        1 => 'message/extract'
+        2 => '@app\\config\\i18n.php'
+    ]
+    'argc' => 3
+]
+2018-05-07 21:29:14 [-][-][-][error][yii\console\Exception] yii\console\Exception: The message path C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\config\..\messages is not a valid directory. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\controllers\MessageController.php:917
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\controllers\MessageController.php(296): yii\console\controllers\MessageController->initConfig('C:\\Program File...')
+#1 [internal function]: yii\console\controllers\MessageController->actionExtract('@app/config/i18...')
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('extract', Array)
+#5 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('extract', Array)
+#6 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('message/extract', Array)
+#7 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('message/extract', Array)
+#8 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\yii(20): yii\base\Application->run()
+#10 {main}
+2018-05-07 21:29:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Work\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WORK-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Work'
+    'LOCALAPPDATA' => 'C:\\Users\\Work\\AppData\\Local'
+    'LOGONSERVER' => '\\\\WORK-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 94 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '5e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Work\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Work\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Work-PC'
+    'USERNAME' => 'Work'
+    'USERPROFILE' => 'C:\\Users\\Work'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\'
+    'PHP_SELF' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'SCRIPT_NAME' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'PATH_TRANSLATED' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1525721354.932
+    'REQUEST_TIME' => 1525721354
+    'argv' => [
+        0 => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+        1 => 'message/extract'
+        2 => '@app/config/i18n.php'
+    ]
+    'argc' => 3
+]
+2018-05-07 21:32:35 [-][-][-][error][yii\console\Exception] yii\console\Exception: The message path C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\config\..\messages is not a valid directory. in C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\controllers\MessageController.php:917
+Stack trace:
+#0 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\controllers\MessageController.php(296): yii\console\controllers\MessageController->initConfig('config/i18n.php')
+#1 [internal function]: yii\console\controllers\MessageController->actionExtract('config/i18n.php')
+#2 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('extract', Array)
+#5 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('extract', Array)
+#6 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('message/extract', Array)
+#7 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('message/extract', Array)
+#8 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 C:\Program Files\UwAmp\www\YiiApps\taskmanager-2018\yii(20): yii\base\Application->run()
+#10 {main}
+2018-05-07 21:32:35 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Work\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WORK-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Work'
+    'LOCALAPPDATA' => 'C:\\Users\\Work\\AppData\\Local'
+    'LOGONSERVER' => '\\\\WORK-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\UwAmp\\bin\\php\\php-7.0.3;C:\\Program Files\\Git\\cmd;C:\\Users\\Work\\AppData\\Local\\GitHubDesktop\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 94 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '5e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Work\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Work\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Work-PC'
+    'USERNAME' => 'Work'
+    'USERPROFILE' => 'C:\\Users\\Work'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\'
+    'PHP_SELF' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'SCRIPT_NAME' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'PATH_TRANSLATED' => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1525721555.186
+    'REQUEST_TIME' => 1525721555
+    'argv' => [
+        0 => 'C:\\Program Files\\UwAmp\\www\\YiiApps\\taskmanager-2018\\yii'
+        1 => 'message/extract'
+        2 => 'config/i18n.php'
+    ]
+    'argc' => 3
+]

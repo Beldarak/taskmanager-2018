@@ -10,7 +10,10 @@ use richardfan\sortable\SortableGridView;
 $this->title = 'My Yii Application';
 ?>
 
-    <h3> Les projets sont déplaçables :</br></h3>
+    <h3> 
+		<?= Yii::t('app','Projects can be moved :');?>
+	</h3></br>
+	
 	<?= SortableGridView::widget([
     'dataProvider' => $dataProvider2,
     
@@ -31,7 +34,10 @@ $this->title = 'My Yii Application';
 	]); ?>
 	
 	
-	<h3> Les tâches sont déplaçables :</br></h3>
+	<h3> 
+		<?= Yii::t('app','Tasks can be moved :');?>
+	</h3></br>
+	
 	<?= SortableGridView::widget([
     'dataProvider' => $dataProvider3,
     
